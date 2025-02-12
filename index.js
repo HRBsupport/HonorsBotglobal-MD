@@ -52,7 +52,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "6285363155850"
+let phoneNumber = "628388188407"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 global.botname = "HonorsBot MD"
@@ -175,7 +175,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +917023951514 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +62123456789 : `)))
         }
 
         phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
