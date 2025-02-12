@@ -75,7 +75,7 @@ const { autoStatusCommand, handleStatusUpdate } = require('./commands/autostatus
 global.packname = settings.packname;
 global.author = settings.author;
 global.channelLink = "https://whatsapp.com/channel/0029Vb0WT0vKwqSWrayxcZ03";
-global.ytch = "KNETMUSIC";
+global.ytch = "ZERO DAYS";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
